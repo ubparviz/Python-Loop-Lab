@@ -10,7 +10,6 @@ choice = int(input("""===== Loop Lab: Interaktiv Topshiriqlar =====
 Tanlang: """))
 
 
-
 if choice == 1:
     
     from random import randint
@@ -44,8 +43,6 @@ if choice == 1:
         print(f"To'g'ri javob: {number}")
 
 
-
-
 elif choice == 2:
 
     print("\n=====🔄 So'zni teskari yozish o'yini=====\n")
@@ -58,9 +55,6 @@ elif choice == 2:
         reverse = letter + reverse
 
     print(reverse)
-
-
-
 
 
 elif choice == 3:
@@ -82,8 +76,6 @@ elif choice == 3:
             min = number 
 
     print("Eng kichik son:", min)
-
-
 
 
 elif choice == 4:
@@ -110,13 +102,9 @@ elif choice == 4:
                 print(son)
 
 
-
-
 elif choice == 0:
     print("Dastur yakunlandi. Xayr!")
 
-
-
-
+    
 else:
     print("Iltimos faqat 0 dan 4 gacha son kiriting")
