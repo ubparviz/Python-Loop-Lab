@@ -1,4 +1,5 @@
 # Kodni bu yerga yozing
+from random import randint
 
 while True:
 
@@ -110,4 +111,4 @@ while True:
 
 
     else:
-        print("Iltimos faqat 0 dan 4 gacha son kiriting")
+        print("Iltimos faqat 0 dan 4 gacha son kiriting\n")
